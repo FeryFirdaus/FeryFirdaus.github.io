@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+  <link rel="icon" type="image/x-icon" href="img/favicon_fix.ico">
+  <title>Fery Firdaus</title>
+</head>
+
+<body id="utama">
+  <!-- Preloader -->
+  <!-- <div class="preloader">
+    <div class="counter">0</div>
+  </div> -->
+  <section id="preload">
+    <div class="container">
+      <div class="box-circle">
+        <div class="circle">
+          <span style="--i:0;"></span>
+          <span style="--i:1;"></span>
+          <span style="--i:2;"></span>
+          <span style="--i:3;"></span>
+          <span style="--i:4;"></span>
+          <span style="--i:5;"></span>
+          <span style="--i:6;"></span>
+          <span style="--i:7;"></span>
+          <span style="--i:8;"></span>
+          <span style="--i:9;"></span>
+          <span style="--i:10;"></span>
+          <span style="--i:11;"></span>
+          <span style="--i:12;"></span>
+          <span style="--i:13;"></span>
+          <span style="--i:14;"></span>
+          <span style="--i:15;"></span>
+          <span style="--i:16;"></span>
+          <span style="--i:17;"></span>
+          <span style="--i:18;"></span>
+          <span style="--i:19;"></span>
+          <span style="--i:20;"></span>
+        </div>
+        <div class="circle">
+          <span style="--i:0;"></span>
+          <span style="--i:1;"></span>
+          <span style="--i:2;"></span>
+          <span style="--i:3;"></span>
+          <span style="--i:4;"></span>
+          <span style="--i:5;"></span>
+          <span style="--i:6;"></span>
+          <span style="--i:7;"></span>
+          <span style="--i:8;"></span>
+          <span style="--i:9;"></span>
+          <span style="--i:10;"></span>
+          <span style="--i:11;"></span>
+          <span style="--i:12;"></span>
+          <span style="--i:13;"></span>
+          <span style="--i:14;"></span>
+          <span style="--i:15;"></span>
+          <span style="--i:16;"></span>
+          <span style="--i:17;"></span>
+          <span style="--i:18;"></span>
+          <span style="--i:19;"></span>
+          <span style="--i:20;"></span>
+        </div>
+      </div>
+      <div class="counter">0</div>
+    </div>
+  </section>
+  <!-- Preloader End -->
+
+
+  <!-- Mouse Trail -->
+  <canvas id="canva"></canvas>
+  <!-- End Mouse Trail -->
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-light fixed-top" style="background: #0E185F;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Fery Firdaus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Fery Firdaus</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mygoals">My Goals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+
+
+  <!-- Hero Section -->
+  <section id="home" class="overlay">
+    <div class="container">
+      <div class="row" id="row1">
+        <div class="col-12 ket-hero" id="ket-hero" data-aos="fade-up" data-aos-duration="1100" data-aos-offset="75">
+          <h1>Hi,<span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+          <!-- <span>Fery</span> Firdaus -->
+          <!-- <h4>I'm student from State Polythecnic of Semarang</h4> -->
+          <a href="#about" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+
+
+  <!-- About Section -->
+  <section id="about" class="about text-center">
+    <div class="container2">
+      <div class="row" id="row-about-1">
+        <div class="col-md-8 mb-5 mx-auto ket-about">
+          <h2>About</h2>
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="row" id="row-about-2">
+        <div class="col-lg-5 col-md-12" id="luarbox-img-about">
+          <div class="imgBx-about">
+            <img src="img/profile.jpg" alt="profilabout" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12" id="luarbox-ket-about">
+          <div class="ketBx-about">
+            <h3>Fery Firdaus</h3>
+            <p>Nama saya Fery Firdaus. Saya adalah lulusan Politeknik Negeri Semarang, Jurusan Teknik Elektro, Program
+              Studi D3 Teknik Telekomunikasi. Saya memiliki keahlian khusus di bidang jaringan dan telekomunikasi data.
+              Saya memiliki banyak pengetahuan dasar tentang jaringan dan telekomunikasi.</p>
+          </div>
+          <div class="skills" id="skills">
+            <div class="bot" id="bot1">
+              <h4>Networking</h4>
+              <div class="percent">
+                <div style="width: 85%;" class="networking"><span></span></div>
+              </div>
+            </div>
+            <div class="bot" id="bot2">
+              <h4>IoT</h4>
+              <div class="percent">
+                <div style="width: 70%;" class="IoT"><span></span></div>
+              </div>
+            </div>
+            <div class="bot" id="bot3">
+              <h4>Programming</h4>
+              <div class="percent">
+                <div style="width: 80%;" class="programming"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="row-about-3">
+        <div class="col-lg-2 col-md-6 col-sm-6 luarbox-ikon-about1" id="luarbox-ikon-about">
+          <div class="boxikon-about">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="https://web.facebook.com/ZuiCrimson" class="ikon-about"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 luarbox-ikon-about2" id="luarbox-ikon-about">
+          <div class="boxikon-about">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="https://www.instagram.com/feryfirdaus_zr/" class="ikon-about"><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 luarbox-ikon-about3" id="luarbox-ikon-about">
+          <div class="boxikon-about">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="https://www.youtube.com/channel/UCHftatTPjsM22SL9Ily_80w" class="ikon-about"><i
+                class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 luarbox-ikon-about4" id="luarbox-ikon-about">
+          <div class="boxikon-about">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="https://twitter.com/feryfirdaus1811" class="ikon-about"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 luarbox-ikon-about5" id="luarbox-ikon-about">
+          <div class="boxikon-about">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="https://github.com/ZuiCrimson/" class="ikon-about"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 luarbox-ikon-about6" id="luarbox-ikon-about">
+          <div class="boxikon-about">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <a href="http://fery.tk-2b.com/job2/" class="ikon-about"><i class="fa-solid fa-angles-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End About Section -->
+
+
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-8  mx-auto ket-edu">
+          <h2>Education</h2>
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="row" id="row-edu-2">
+        <div class="col-lg-4 col-md-6 col-sm-12 cardBx" id="cardBx1">
+          <div class="face face1">
+            <div class="content">
+              <i class="fa-solid fa-user-graduate"></i>
+              <h3>SMP Eka Sakti</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Saya lulusan Sekolah Menengah Pertama pada tahun 2017</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 cardBx" id="cardBx2">
+          <div class="face face1">
+            <div class="content">
+              <i class="fa-solid fa-user-graduate"></i>
+              <h3>SMK Hidayah</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Saya masuk Sekolah Menengah Kejuruan dengan jurusan Teknik Komputer dan Jaringan pada tahun 2017 dan
+                lulus pada tahun 2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 cardBx" id="cardBx3">
+          <div class="face face1">
+            <div class="content">
+              <i class="fa-solid fa-user-graduate"></i>
+              <h3>Politeknik Negeri Semarang</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>Saya memulai kuliah di Politeknik Negeri Semarang dengan jurusan Teknik Elektro, Program Studi D3
+                Teknik Telekomunikasi dan lulus pada tahun 2023 dengan IPK 3,68 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Education Section -->
+
+
+
+  <!-- Experience Section Start -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col-md-8  mx-auto ket-exp">
+          <h2>Experience</h2>
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-evenly" id="row-exp-2">
+        <div class="col-lg-4 col-sm-12 mb-5 luar-box-exp1" id="luar-box-exp">
+          <div class="gmb-exp">
+            <img src="img/bpsdmd-prov-jateng.jpg" alt="">
+          </div>
+          <div class="info-exp">
+            <div>
+              <h4>BPSDMD PROV JATENG</h4>
+              <h5>JUL 2018 - NOV 2018</h5>
+              <p>Maintenance of Computers and Internet Computer Laboratories</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 luar-box-exp2" id="luar-box-exp">
+          <div class="gmb-exp">
+            <img src="img/bpsdmd-prov-jateng.jpg" alt="">
+          </div>
+          <div class="info-exp">
+            <div>
+              <h4>BPSDMD PROV JATENG</h4>
+              <h5>JUN 2019 - AUG 2019</h5>
+              <p>Hardware, Software and Network Trouble Computer Laboratories</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 luar-box-exp3" id="luar-box-exp">
+          <div class="gmb-exp">
+            <img src="img/logo_nexa_500.png" alt="">
+          </div>
+          <div class="info-exp">
+            <div>
+              <h4>Nexa Semarang</h4>
+              <h5>SEP 2022 - FEB 2023</h5>
+              <p>Technician Support for Internetworking and Troubleshooting</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section End -->
+
+
+
+
+  <!-- My Goals Start -->
+  <section id="mygoals" class="mygoals">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col-md-8  mx-auto ket-goals">
+          <h2>My Goals</h2>
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="row goals">
+        <div class="col-md-lg-4 goals-2" id="goals-2">
+          <div class="front">
+            <img src="img/tujuh.jpg" alt="goals1">
+          </div>
+          <div class="back">
+            <div class="back-content">
+              <div class="pname">
+                First Goal
+              </div>
+              <div class="desc">
+                My first goal is to become a programmer who can create innovative products for everyone
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-lg-4 goals-3" id="goals-3">
+          <div class="front">
+            <img src="img/delapan.jpg" alt="goals1">
+          </div>
+          <div class="back">
+            <div class="back-content">
+              <div class="pname">
+                Second Goal
+              </div>
+              <div class="desc">
+                My second goal is to become a network engineer who can help everyone to communicate
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-lg-4 goals-4" id="goals-4">
+          <div class="front">
+            <img src="img/sembilan.jpg" alt="goals1">
+          </div>
+          <div class="back">
+            <div class="back-content">
+              <div class="pname">
+                Third Goal
+              </div>
+              <div class="desc">
+                My third goal is an IoT Maker that can benefit everyone
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- My Goals End -->
+
+
+
+
+  <!-- Contact Section Start -->
+  <section id="contact" class="container-fluid contact">
+    <div class="row text-center mb-3">
+      <div class="col-md-lg-6  mx-auto ket-contact">
+        <h2>Contact</h2>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <div class="row align-items-center" id="kontak">
+      <div class="col-lg-md-6 mx-auto">
+        <form action="">
+          <div class="inputBox">
+            <input type="text" required>
+            <h2>Full Name</h2>
+          </div>
+          <div class="inputBox">
+            <input type="email" required>
+            <h2>Email</h2>
+          </div>
+          <div class="inputBox">
+            <input type="Number" required>
+            <h2>Phone</h2>
+          </div>
+          <div class="inputBox">
+            <textarea name="" id="" cols="30" rows="10" required></textarea>
+            <h2>Message</h2>
+          </div>
+          <div class="inputBox">
+            <input type="submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+
+
+  <!-- Footer Section Start -->
+  <section id="footer" class=" footer">
+    <div class="container">
+      <div class="row col-lg-4 text-center ket-footer">
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <span>+6281329924648</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <span>@feryfirdauscr@gmail.com</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Semarang, Jawa Tengah, Indonesia</span>
+        </li>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section End -->
+
+  <a href="#utama" class="bg-primary rounded-circle" id="backtop">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+
+
+  <!-- Script Start -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/utama.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
